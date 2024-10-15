@@ -4,6 +4,13 @@
   <artifactId>EnviarEmail</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
+  <properties>
+	  <maven.compiler.target>22</maven.compiler.target>
+	  <maven.compier.source>22</maven.compier.source>
+	  <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	  <exec.mainClass>dad.EnviarEmail.Main</exec.mainClass>
+  </properties>
+  
   <dependencies>
 	  <dependency>
 			<groupId>org.openjfx</groupId>
